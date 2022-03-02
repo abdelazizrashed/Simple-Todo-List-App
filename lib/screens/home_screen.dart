@@ -33,7 +33,7 @@ class HomeScreen extends StatelessWidget {
                   BlocProvider.of<TodosFilterBloc>(context)
                       .add(const UpdateTodos(
                     todosFilter: TodosFilter.pending,
-                  ));
+                  ),);
                   break;
                 case 1:
                   BlocProvider.of<TodosFilterBloc>(context)
